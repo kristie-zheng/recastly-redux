@@ -9,7 +9,7 @@ var handleVideoSearch = (q) => {
   return {
     type: 'HANDLE_VIDEO_SEARCH',
     searchQuery: q, //string
-  },
+  };
 };
 
 export default handleVideoSearch;
